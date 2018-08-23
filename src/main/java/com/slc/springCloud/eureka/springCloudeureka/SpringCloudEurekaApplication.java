@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-/*@SpringBootApplication
-@EnableEurekaServer*/
-@SpringCloudApplication
+@SpringBootApplication
+@EnableEurekaServer
+//@SpringCloudApplication
 public class SpringCloudEurekaApplication {
 
 /*	org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter
