@@ -2,10 +2,12 @@ package com.slc.springCloud.eureka.springCloudeureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@SpringBootApplication
-@EnableEurekaServer
+/*@SpringBootApplication
+@EnableEurekaServer*/
+@SpringCloudApplication
 public class SpringCloudEurekaApplication {
 
 /*	org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter
